@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;  */
+}
+
+.section_head {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+.section_content {
+    margin-top: 0;
+    background-color: rgb(209, 199, 199);
+    padding: 10px;
+}
+
+.addSec_button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8, 158, 8);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
